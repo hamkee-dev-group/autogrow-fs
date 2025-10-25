@@ -1,4 +1,4 @@
-# auto-grow — Automated Filesystem Growth for Linux Block Devices
+# Automated Filesystem Growth for Linux Block Devices
 
 A bash script that safely automates the complete workflow for growing filesystems after VM disk expansion. Handles the entire stack from disk rescan through partition expansion, encryption layer resize, volume manager operations, and filesystem growth.
 

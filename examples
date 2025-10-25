@@ -1,0 +1,14 @@
+# Grow root filesystem
+sudo ./auto-grow.sh
+
+# Grow a data volume mounted at /data
+sudo ./auto-grow.sh --mount /data
+
+# Grow the filesystem sitting on /dev/sdb2 (must be mounted somewhere)
+sudo ./auto-grow.sh --target /dev/sdb2
+
+# Simulate only; print the plan and all commands, make no changes
+sudo ./auto-grow.sh --dry-run
+
+# Non-interactive (CI/automation)
+sudo ./auto-grow.sh --yes --mount /data

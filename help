@@ -1,0 +1,9 @@
+  -m, --mount <path>     Target mount point (default: /). Online grow only.
+  -t, --target <dev>     Target block device (e.g., /dev/sdb2 or /dev/nvme0n1p2).
+                         We'll locate the mounted filesystem on top of this stack.
+  -n, --dry-run          Show what would happen; do not execute.
+  -y, --yes              Assume "yes" to the confirmation prompt.
+      --use-growpart     Force using growpart for partition resize (if installed).
+      --use-sgdisk       Force using sgdisk for partition resize (GPT only).
+  -v, --verbose          Verbose output.
+  -h, --help             Show help.
